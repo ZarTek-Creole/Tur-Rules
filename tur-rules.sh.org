@@ -6,8 +6,6 @@ glroot=/glftpd
 rules=/ftp-data/misc/site.rules
 compress=" "
 sections="
-MP3:^10.
-GENERAL:^01.
 "
 
 ######################################################

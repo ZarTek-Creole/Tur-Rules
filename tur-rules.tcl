@@ -13,7 +13,7 @@ proc pub:turrules {nick uhost handle chan arg} {
  set section [lindex $arg 0]
  set searchword [lindex $arg 1]
  foreach line [split [exec $binary $section $searchword] "\n"] {
-      putquick "PRIVMSG $chan :$line"
+      putquick "PRIVMSG $nick :$line"
  }
 }
 
